@@ -14,4 +14,6 @@ React
 ```
 React Strap-https://reactstrap.github.io/components/alerts/
 
+Create-react-app with redux -https://github.com/reedsa/create-react-app-templates#redux
+
 ```
