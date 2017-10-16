@@ -11,6 +11,8 @@ NodeJS
 To check knowledge -https://edgecoders.com/how-well-do-you-know-node-js-36b1473c01c8
 
 Scaling - http://adrianmejia.com/blog/2016/03/23/how-to-scale-a-nodejs-app-based-on-number-of-users/
+
+mongoose-express-crud - https://www.npmjs.com/package/mongoose-express-crud
 ```
 React
 ```
