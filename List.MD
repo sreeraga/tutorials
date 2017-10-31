@@ -16,6 +16,8 @@ mongoose-express-crud - https://www.npmjs.com/package/mongoose-express-crud
 
 Yeoman generator for a starter API -https://www.npmjs.com/package/generator-studio-api
 
+craftninja/exp-starter-api -https://github.com/craftninja/exp-starter-api
+
 ```
 Node Docker
 
