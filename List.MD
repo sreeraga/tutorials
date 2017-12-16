@@ -56,3 +56,8 @@ I also found this reference (https://discuss.circleci.com/t/using-psql-command-i
 
 After this config change, the server builds have been successfully running on CircleCI (at least so far). I'd be curious to hear if this helps any other builds. If I have more time tomorrow I'll try to dig in more. Here is the config for the team 6 server: https://github.com/CognizantStudio/lp02-team-6-mock-server/blob/master/.circleci/config.yml
 ```
+```
+NodeJS - Profiling
+https://nodejs.org/en/docs/guides/simple-profiling/
+
+````
