@@ -41,6 +41,10 @@ I spent some time today digging into the CircleCI race condition that some of us
 Visual Studio Code
 ```
 https://www.smashingmagazine.com/2018/01/visual-studio-code/
+```
+Visual Studio Code
+```
+https://www.smashingmagazine.com/2018/01/visual-studio-code/
 
 The issue has been discussed here https://discuss.circleci.com/t/prevent-race-conditions-by-waiting-for-services-with-dockerize/11215 and here https://discuss.circleci.com/t/problem-waiting-for-postgres-with-dockerize/15059
 
