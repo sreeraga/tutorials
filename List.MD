@@ -37,6 +37,11 @@ Error Handling - https://reactjs.org/blog/2017/07/26/error-handling-in-react-16.
 Circle CI
 I spent some time today digging into the CircleCI race condition that some of us have seen with our v2.0 builds using a database. I suspect that this issue could happen with any multi-image build.
 
+```
+Visual Studio Code
+```
+https://www.smashingmagazine.com/2018/01/visual-studio-code/
+
 The issue has been discussed here https://discuss.circleci.com/t/prevent-race-conditions-by-waiting-for-services-with-dockerize/11215 and here https://discuss.circleci.com/t/problem-waiting-for-postgres-with-dockerize/15059
 
 I tested out a few different options with the team 6 server both on my local laptop using the CircleCI CLI (see https://circleci.com/docs/2.0/local-jobs/ for how to do that) and on the CircleCI server. I tried setting various environment variables at different points, I tried to install dockerize to make sure it was actually present before calling it, I tried the brute force method of seeing if postgres was running via a psql call.
