@@ -70,6 +70,9 @@ https://www.smashingmagazine.com/2018/01/visual-studio-code/
 Docker
 ```
 https://github.com/CognizantStudio/docker-images
+
 https://training.docker.com/introduction-to-docker
+
 https://training.docker.com/docker-fundamentals
+
 https://training.docker.com/docker-operations
