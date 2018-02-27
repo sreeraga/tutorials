@@ -1,5 +1,5 @@
 # Versioning Releases
-All Cognizant Accelerator software products will follow a date and process-based release version number format of `YYQM.S[-modifier]` explained in detail below.
+Products can follow a date and process-based release version number format of `YYQM.S[-modifier]` explained in detail below.
 
 ```
 What about SemVer?
