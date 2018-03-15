@@ -19,6 +19,13 @@ craftninja/exp-starter-api -https://github.com/craftninja/exp-starter-api
 
 Routing automated (Ben) - https://github.com/CognizantStudio/digital-supply-chain-services/
 
+```
+Mock Socket - https://github.com/thoov/mock-socket
+
+https://www.npmjs.com/package/socket.io-mock
+
+```
+
 
 ### Node Docker
 
@@ -81,3 +88,7 @@ https://github.com/CognizantStudio/docker-images
 
 
 https://github.com/standard/standard
+
+
+### Python
+https://www.blog.pythonlibrary.org/2018/03/13/python-3-an-intro-to-f-strings/
