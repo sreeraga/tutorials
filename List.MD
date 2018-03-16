@@ -5,6 +5,30 @@ Functional Programming - https://www.youtube.com/watch?v=e-5obm1G_FY
 
 Closure- https://jsfiddle.net/SyamSankar/9rorkvoo/
 
+Currying in JavaScript
+=====================
+example :
+const addResource = resourcePermission => componentCode => {
+  return (
+    !componentCode ||
+    !resourcePermission[componentCode] ||
+    resourcePermission[componentCode] !== 'HIDE'
+  );
+};
+
+export default function resourceFilter(resources) {
+  return (dispatch, getState) => {
+    const resourcePermission = getState().resourcePermission;
+    return resources.reduce((_resources, resource) => {
+      if (addResource(resourcePermission)(resource[componentCode]))
+        _resources.push(resource);
+      return _resources;
+    }, []);
+  };
+}
+
+
+
 ### NodeJS
 
 To check knowledge -https://edgecoders.com/how-well-do-you-know-node-js-36b1473c01c8
