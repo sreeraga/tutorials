@@ -118,3 +118,5 @@ https://github.com/standard/standard
 
 ### Python
 https://www.blog.pythonlibrary.org/2018/03/13/python-3-an-intro-to-f-strings/
+
+https://py.checkio.org/blog/5-best-speeches-mr-raymond-hettinger/
