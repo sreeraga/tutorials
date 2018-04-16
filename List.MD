@@ -124,3 +124,6 @@ https://py.checkio.org/blog/5-best-speeches-mr-raymond-hettinger/
 ### Ruby & Rails
 
 ActiveRecord migration: http://edgeguides.rubyonrails.org/active_record_migrations.html
+
+https://www.sandimetz.com/blog/https://www.sandimetz.com/blog/
+
