@@ -127,3 +127,4 @@ ActiveRecord migration: http://edgeguides.rubyonrails.org/active_record_migratio
 
 https://www.sandimetz.com/blog/https://www.sandimetz.com/blog/
 
+https://robots.thoughtbot.com/how-we-test-rails-applications
