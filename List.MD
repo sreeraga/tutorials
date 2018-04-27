@@ -128,3 +128,5 @@ ActiveRecord migration: http://edgeguides.rubyonrails.org/active_record_migratio
 https://www.sandimetz.com/blog/https://www.sandimetz.com/blog/
 
 https://robots.thoughtbot.com/how-we-test-rails-applications
+
+Nice resource on rspec (http://www.betterspecs.org/) and for more information on shared examples (https://medium.freecodecamp.org/how-to-dry-out-your-rspec-tests-using-shared-examples-d5cc5d33fd76)
