@@ -43,6 +43,8 @@ craftninja/exp-starter-api -https://github.com/craftninja/exp-starter-api
 
 Routing automated (Ben) - https://github.com/CognizantStudio/digital-supply-chain-services/
 
+Avoid unhandled promise rejection DeprecationWarnings in Node - https://medium.com/@kyle.mickey/a-practical-guide-to-avoid-unhandled-promise-rejection-deprecationwarnings-in-node-f9c67634dd2b
+
 ```
 Mock Socket - https://github.com/thoov/mock-socket
 
