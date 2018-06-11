@@ -68,6 +68,8 @@ Error Handling - https://reactjs.org/blog/2017/07/26/error-handling-in-react-16.
 
 Redux Form - https://redux-form.com/7.3.0/
 
+Reach Router - https://reach.tech/router
+
 ### Circle CI
 I spent some time today digging into the CircleCI race condition that some of us have seen with our v2.0 builds using a database. I suspect that this issue could happen with any multi-image build.
 
