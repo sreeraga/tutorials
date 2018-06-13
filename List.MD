@@ -137,3 +137,6 @@ Nice resource on rspec (http://www.betterspecs.org/) and for more information on
 
 ### Git
 https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+
+### JWT
+https://stormpath.com/blog/where-to-store-your-jwts-cookies-vs-html5-web-storage
