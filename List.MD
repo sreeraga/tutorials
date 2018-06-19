@@ -45,6 +45,9 @@ Routing automated (Ben) - https://github.com/CognizantStudio/digital-supply-chai
 
 Avoid unhandled promise rejection DeprecationWarnings in Node - https://medium.com/@kyle.mickey/a-practical-guide-to-avoid-unhandled-promise-rejection-deprecationwarnings-in-node-f9c67634dd2b
 
+Basic Functional Programming With Async/Await : http://thecodebarbarian.com/basic-functional-programming-with-async-await.html
+
+
 ```
 Mock Socket - https://github.com/thoov/mock-socket
 
@@ -101,6 +104,8 @@ https://nodejs.org/en/docs/guides/simple-profiling/
 
 https://www.smashingmagazine.com/2018/01/visual-studio-code/
 
+Introducing GraphQL for Visual Studio Code : https://www.prisma.io/blog/vscode-thieghu7shoo/
+
 
 ### Docker
 
@@ -140,3 +145,6 @@ https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 
 ### JWT
 https://stormpath.com/blog/where-to-store-your-jwts-cookies-vs-html5-web-storage
+
+### GraphQL
+https://graphql.guide/
