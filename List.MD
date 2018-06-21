@@ -75,30 +75,9 @@ Redux Form - https://redux-form.com/7.3.0/
 
 Reach Router - https://reach.tech/router
 
-### Circle CI
-I spent some time today digging into the CircleCI race condition that some of us have seen with our v2.0 builds using a database. I suspect that this issue could happen with any multi-image build.
-
-The issue has been discussed here https://discuss.circleci.com/t/prevent-race-conditions-by-waiting-for-services-with-dockerize/11215 and here https://discuss.circleci.com/t/problem-waiting-for-postgres-with-dockerize/15059
-
-I tested out a few different options with the team 6 server both on my local laptop using the CircleCI CLI (see https://circleci.com/docs/2.0/local-jobs/ for how to do that) and on the CircleCI server. I tried setting various environment variables at different points, I tried to install dockerize to make sure it was actually present before calling it, I tried the brute force method of seeing if postgres was running via a psql call.
-
-I then stumbled upon https://circleci.com/docs/2.0/executor-types/#using-multiple-docker-images which states the following: *In a multi-image configuration job, all steps are executed in the container created by the first image listed.*
-
-I also found this reference (https://discuss.circleci.com/t/using-psql-command-in-circleci-2-0-build/14785) that mentions psql, and I added a step to install the postgres client in my config file like this:
-
-```      - run: dockerize -wait tcp://localhost:5432 -timeout 1m
-      - run:
-          name: Installing Dependencies
-          command: |
-            yarn install
-            sudo apt-get install postgresql-client
-```
-
-
-After this config change, the server builds have been successfully running on CircleCI (at least so far). I'd be curious to hear if this helps any other builds. If I have more time tomorrow I'll try to dig in more. Here is the config for the team 6 server: https://github.com/CognizantStudio/lp02-team-6-mock-server/blob/master/.circleci/config.yml
+Fragment Driven UIs with Apollo - https://medium.com/@abhiaiyer/fragment-driven-uis-with-apollo-17d933fa1cbe
 
 ### NodeJS - Profiling
-
 
 https://nodejs.org/en/docs/guides/simple-profiling/
 
@@ -132,6 +111,8 @@ https://www.blog.pythonlibrary.org/2018/03/13/python-3-an-intro-to-f-strings/
 
 https://py.checkio.org/blog/5-best-speeches-mr-raymond-hettinger/
 
+How to write Dockerfiles for Python Web Apps https://blog.hasura.io/how-to-write-dockerfiles-for-python-web-apps-6d173842ae1d
+
 ### Ruby & Rails
 
 ActiveRecord migration: http://edgeguides.rubyonrails.org/active_record_migrations.html
@@ -150,3 +131,26 @@ https://stormpath.com/blog/where-to-store-your-jwts-cookies-vs-html5-web-storage
 
 ### GraphQL
 https://graphql.guide/
+
+### Circle CI
+I spent some time today digging into the CircleCI race condition that some of us have seen with our v2.0 builds using a database. I suspect that this issue could happen with any multi-image build.
+
+The issue has been discussed here https://discuss.circleci.com/t/prevent-race-conditions-by-waiting-for-services-with-dockerize/11215 and here https://discuss.circleci.com/t/problem-waiting-for-postgres-with-dockerize/15059
+
+I tested out a few different options with the team 6 server both on my local laptop using the CircleCI CLI (see https://circleci.com/docs/2.0/local-jobs/ for how to do that) and on the CircleCI server. I tried setting various environment variables at different points, I tried to install dockerize to make sure it was actually present before calling it, I tried the brute force method of seeing if postgres was running via a psql call.
+
+I then stumbled upon https://circleci.com/docs/2.0/executor-types/#using-multiple-docker-images which states the following: *In a multi-image configuration job, all steps are executed in the container created by the first image listed.*
+
+I also found this reference (https://discuss.circleci.com/t/using-psql-command-in-circleci-2-0-build/14785) that mentions psql, and I added a step to install the postgres client in my config file like this:
+
+```      - run: dockerize -wait tcp://localhost:5432 -timeout 1m
+      - run:
+          name: Installing Dependencies
+          command: |
+            yarn install
+            sudo apt-get install postgresql-client
+```
+
+
+After this config change, the server builds have been successfully running on CircleCI (at least so far). I'd be curious to hear if this helps any other builds. If I have more time tomorrow I'll try to dig in more. Here is the config for the team 6 server: https://github.com/CognizantStudio/lp02-team-6-mock-server/blob/master/.circleci/config.yml
+
