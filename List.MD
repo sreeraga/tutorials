@@ -126,6 +126,12 @@ Nice resource on rspec (http://www.betterspecs.org/) and for more information on
 ### Git
 https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 
+https://www.youtube.com/watch?v=0SJCYPsef54
+
+https://www.atlassian.com/git/tutorials/advanced-overview
+
+https://robots.thoughtbot.com/git-interactive-rebase-squash-amend-rewriting-history
+
 ### JWT
 https://stormpath.com/blog/where-to-store-your-jwts-cookies-vs-html5-web-storage
 
