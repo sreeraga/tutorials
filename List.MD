@@ -113,6 +113,8 @@ https://py.checkio.org/blog/5-best-speeches-mr-raymond-hettinger/
 
 How to write Dockerfiles for Python Web Apps https://blog.hasura.io/how-to-write-dockerfiles-for-python-web-apps-6d173842ae1d
 
+python-keycloak-client : https://pypi.org/project/python-keycloak-client/
+
 ### Ruby & Rails
 
 ActiveRecord migration: http://edgeguides.rubyonrails.org/active_record_migrations.html
