@@ -100,6 +100,12 @@ https://training.docker.com/docker-operations
 
 https://github.com/CognizantStudio/docker-images
 
+```
+To go inside container : docker exec -it CONTAINER_NAME sh
+To check connectivity with other container: ping -c 4 CONTAINER_NAME
+        curl http://CONTAINERNAME:PORT?<query string from log outputs>
+```
+
 ### Linting
 
 
