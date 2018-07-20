@@ -140,6 +140,8 @@ https://www.atlassian.com/git/tutorials/advanced-overview
 
 https://robots.thoughtbot.com/git-interactive-rebase-squash-amend-rewriting-history
 
+.gitattributes - This file can be used ......
+
 ### JWT
 https://stormpath.com/blog/where-to-store-your-jwts-cookies-vs-html5-web-storage
 
