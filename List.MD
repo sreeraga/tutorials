@@ -49,6 +49,7 @@ Avoid unhandled promise rejection DeprecationWarnings in Node - https://medium.c
 
 Basic Functional Programming With Async/Await : http://thecodebarbarian.com/basic-functional-programming-with-async-await.html
 
+**npm ci** -https://docs.npmjs.com/cli/ci
 
 ```
 Mock Socket - https://github.com/thoov/mock-socket
