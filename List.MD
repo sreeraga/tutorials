@@ -51,6 +51,8 @@ Basic Functional Programming With Async/Await : http://thecodebarbarian.com/basi
 
 **npm ci** -https://docs.npmjs.com/cli/ci
 
+Error handling with async/await and promises - https://dev.to/vcarl/error-handling-with-asyncawait-and-promises-2eoa
+
 ```
 Mock Socket - https://github.com/thoov/mock-socket
 
