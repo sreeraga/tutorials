@@ -124,6 +124,8 @@ How to write Dockerfiles for Python Web Apps https://blog.hasura.io/how-to-write
 
 python-keycloak-client : https://pypi.org/project/python-keycloak-client/
 
+Python Cuncurrency : https://www.youtube.com/watch?v=MCs5OvhV9S4
+
 ### Ruby & Rails
 
 ActiveRecord migration: http://edgeguides.rubyonrails.org/active_record_migrations.html
