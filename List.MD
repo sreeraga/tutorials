@@ -118,6 +118,33 @@ To check connectivity with other container: ping -c 4 CONTAINER_NAME
 
 https://github.com/standard/standard
 
+ #### EsLint
+      1.    npm install eslint --save-dev
+      2.    ./node_modules/.bin/eslint –init
+        a.    Choose `> Use a popular style guide`
+        b.    Select `> Airbnb`
+        c.    Select config file format as `YAML` (I prefer yamal )
+      3.    After installation add the following configuration inside the generated `.eslintrc.yml` file
+            ```extends: airbnb-base
+            env:
+              es6: true
+              node: true
+              mocha: true
+            rules:
+              linebreak-style:
+                - error
+                - windows
+              no-use-before-define:
+                - off
+              arrow-parens:
+                - error
+                - as-needed```
+      4.    Add file `.eslintignore` in root directory with folders and files to be ignored
+      Eg.. migrations/*
+      models/*
+      5.    Add script in package.json for lint
+      "lint": "./node_modules/.bin/eslint . "
+
 
 ### Python
 https://www.blog.pythonlibrary.org/2018/03/13/python-3-an-intro-to-f-strings/
