@@ -29,11 +29,11 @@ export default function resourceFilter(resources) {
   };
 }
 
-[Single Responsibility Principle: A Recipe for Great Code](https://www.toptal.com/software/single-responsibility-principle)
+- [Single Responsibility Principle: A Recipe for Great Code](https://www.toptal.com/software/single-responsibility-principle)
 
-[5 Principles that will make you a SOLID JavaScript Developer](https://thefullstack.xyz/solid-javascript/)
+- [5 Principles that will make you a SOLID JavaScript Developer](https://thefullstack.xyz/solid-javascript/)
 
-[S.O.L.I.D The first 5 principles of Object Oriented Design with JavaScript](https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa)
+- [S.O.L.I.D The first 5 principles of Object Oriented Design with JavaScript](https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa)
 
 ### NodeJS
 
