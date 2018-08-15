@@ -8,7 +8,7 @@ http://thecodebarbarian.com/basic-functional-programming-with-async-await.html
 Closure- https://jsfiddle.net/SyamSankar/9rorkvoo/
 
 Currying in JavaScript
-=====================
+```
 example :
 const addResource = resourcePermission => componentCode => {
   return (
@@ -28,7 +28,7 @@ export default function resourceFilter(resources) {
     }, []);
   };
 }
-
+```
 - [Single Responsibility Principle: A Recipe for Great Code](https://www.toptal.com/software/single-responsibility-principle)
 
 - [5 Principles that will make you a SOLID JavaScript Developer](https://thefullstack.xyz/solid-javascript/)
