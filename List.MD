@@ -29,7 +29,9 @@ export default function resourceFilter(resources) {
   };
 }
 
-
+[Single Responsibility Principle: A Recipe for Great Code](https://www.toptal.com/software/single-responsibility-principle)
+[5 Principles that will make you a SOLID JavaScript Developer](https://thefullstack.xyz/solid-javascript/)
+[S.O.L.I.D The first 5 principles of Object Oriented Design with JavaScript](https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa)
 
 ### NodeJS
 
@@ -152,6 +154,14 @@ https://stormpath.com/blog/where-to-store-your-jwts-cookies-vs-html5-web-storage
 
 ### GraphQL
 https://graphql.guide/
+
+### Flex and Grid
+
+http://grid.malven.co/
+http://flexbox.malven.co/
+
+### Refactoring
+https://refactoring.guru/refactoring
 
 ### Circle CI
 I spent some time today digging into the CircleCI race condition that some of us have seen with our v2.0 builds using a database. I suspect that this issue could happen with any multi-image build.
