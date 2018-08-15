@@ -125,7 +125,8 @@ https://github.com/standard/standard
         b.    Select `> Airbnb`
         c.    Select config file format as `YAML` (I prefer yamal )
       3.    After installation add the following configuration inside the generated `.eslintrc.yml` file
-            ```extends: airbnb-base
+            ```
+            extends: airbnb-base
             env:
               es6: true
               node: true
@@ -138,7 +139,8 @@ https://github.com/standard/standard
                 - off
               arrow-parens:
                 - error
-                - as-needed```
+                - as-needed
+            ```
       4.    Add file `.eslintignore` in root directory with folders and files to be ignored
       Eg.. migrations/*
       models/*
