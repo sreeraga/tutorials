@@ -64,6 +64,10 @@ https://www.npmjs.com/package/socket.io-mock
 
 ```
 
+***Logging request and response**
+```
+morgan
+```
 
 ### Node Docker
 
