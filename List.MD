@@ -111,6 +111,10 @@ https://training.docker.com/docker-operations
 
 https://github.com/CognizantStudio/docker-images
 
+https://vsupalov.com/docker-arg-env-variable-guide/
+
+Remote Code Execution in Alpine Linux: https://justi.cz/security/2018/09/13/alpine-apk-rce.html
+
 ```
 To go inside container : docker exec -it CONTAINER_NAME sh
 To check connectivity with other container: ping -c 4 CONTAINER_NAME
